@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>malguy</servlet-name>
+        <servlet-class>server.MiniServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>malguy</servlet-name>
+        <url-pattern>/malguy</url-pattern>
+    </servlet-mapping>
+</web-app>
